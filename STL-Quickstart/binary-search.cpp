@@ -19,6 +19,7 @@ int main(){
     }
 
     // finding index of the element
+    // O(log(n))
 
     auto lb = lower_bound(arr,arr+n,key);
     cout<<lb-arr<<endl;
