@@ -91,5 +91,22 @@ int main()
     }
     cout << endl;
 
+
+    v.resize(8); //fills remaining spaces with 0
+
+    //remove all element
+    v.clear();
+
+    if(v.empty()){
+        cout<<"Vector is empty";
+    }
+
+
+    v.front(); //front most element 
+
+    v.back(); //last element
+
+    v.reserve(1000); //it avoid doubling 
+
     return 0;
 }
