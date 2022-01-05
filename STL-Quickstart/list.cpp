@@ -62,7 +62,34 @@ int main()
         os<<x<<" -> ";
     }
 
+    l.remove(23);
 
+    auto it = l.begin();
+    it++;
+    it++ ;
+    l.erase(it);
+
+    os<<"\nRemove and erase"<<endl;
+    for(auto x : l)
+    {
+        os<<x<<" -> ";
+    }
+
+    // // // iterator to point to +2 position
+    // advance(it, 0);
+  
+    // using insert to insert 1 element at the 3rd position
+    // inserts 5 at 3rd position
+
+    auto  c = l.begin();
+    c++;
+    l.insert(c,69);
+
+    os<<"\nInsert"<<endl;
+    for(auto x : l)
+    {
+        os<<x<<" -> ";
+    }
     
     return 0;
 }

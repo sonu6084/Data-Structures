@@ -4,3 +4,7 @@ Front push
 42 -> 23 -> 10 -> 3 -> 5 -> 12 -> 7 -> 86 -> 
 front and back pop
 23 -> 10 -> 3 -> 5 -> 12 -> 7 -> 
+Remove and erase
+10 -> 3 -> 12 -> 7 -> 
+Insert
+10 -> 69 -> 3 -> 12 -> 7 -> 
